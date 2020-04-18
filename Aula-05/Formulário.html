@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+</head>
+<body>
+   <form action="Processa.php" method="POST">
+
+      <Input type="text" name="Texto1" placeholder="text">
+       
+        <br>
+
+        <label>password</label>
+      <input type="password" name="Senha">
+
+        <br>
+
+        <label>Oculto</label>
+        <input type="hidden" name="Informacao_oculta" value="messagem oculta">
+
+        <br>
+
+        <label>Select</label>
+        <select name="Selecao">
+          <option value="1">Opção-01</option>
+          <option value="">Opção-02</option>
+
+        <br>
+
+        <label>Radio</label> <br>
+        <input type="radio" name="Radio" value="1">valor-01 <br>
+        <input type="radio" name="Radio" value="2">valor-02
+        
+        <br>
+
+        <input type="checkbox"  name="ck-01" value="1">
+        <input type="checkbox"  name="ck-01" value="2">
+        <input type="checkbox"  name="ck-01" value="3">
+
+        <br>
+
+        <input type="submit" value="Enviar" name="submit">
+
+</body>
+</html>
